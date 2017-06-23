@@ -1,8 +1,8 @@
-var React = require("react");
+const React = require("react");
 
-var TodoItem = require("./TodoItem");
+const TodoItem = require("./TodoItem");
 
-var TodoList = function(props) {
+const TodoList = function(props) {
 
     return (
         <ul className="list-group">

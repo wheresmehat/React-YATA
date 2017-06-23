@@ -1,6 +1,6 @@
-var React = require("react");
+const React = require("react");
 
-var Todo = require("./Todo");
+const Todo = require("./Todo");
 
 function App() {
 

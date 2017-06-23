@@ -1,4 +1,4 @@
-var constants = {
+const constants = {
 
     ALL: "all",
     ACTIVE: "active",

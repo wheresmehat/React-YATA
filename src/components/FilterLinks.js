@@ -1,15 +1,12 @@
-var React = require("react");
+const React = require("react");
+const { ALL, ACTIVE, COMPLETED } = require("../constants");
 
-var constants = require("../constants");
+const Link = function(props) {
 
-var { ALL, ACTIVE, COMPLETED } = constants;
+    const currentFilter = props.currentFilter;
+    const filterName = props.filterName;
 
-var Link = function(props) {
-
-    var currentFilter = props.currentFilter;
-    var filterName = props.filterName;
-
-    var linkStyle = {
+    let linkStyle = {
 
         marginLeft: "3px", 
         marginRight: "3px"
@@ -25,7 +22,7 @@ var Link = function(props) {
     return (
 
         <a 
-            href="#" 
+            href="" 
             className="btn btn-default btn-sm"
             style={ linkStyle }
             onClick={(evt) => {
@@ -40,7 +37,7 @@ var Link = function(props) {
 
 }
 
-var FilterLinks = function(props) {
+const FilterLinks = function(props) {
 
     return (
         <div style={{marginBottom: "30px"}}>

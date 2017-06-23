@@ -1,6 +1,6 @@
-var React = require("react");
+const React = require("react");
 
-var TodosCount = function(props) {
+const TodosCount = function(props) {
 
     return (
         <div className="well well-sm">

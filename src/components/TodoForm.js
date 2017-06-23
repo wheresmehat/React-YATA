@@ -1,4 +1,4 @@
-var React = require("react");
+const React = require("react");
 
 class TodoForm extends React.Component {
 
@@ -13,7 +13,7 @@ class TodoForm extends React.Component {
 
     handleInputTextChangeEvt(evt) {
 
-        var todoText = evt.target.value;
+        const todoText = evt.target.value;
 
         this.props.onTodoSearch(todoText);
     }

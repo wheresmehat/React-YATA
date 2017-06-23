@@ -1,4 +1,4 @@
-var React = require("react");
+const React = require("react");
 
 /*
 var TodoItem = function(props) {
@@ -48,7 +48,7 @@ class TodoItem extends React.Component {
 
     render() {
 
-        var todoItem = this.props.todoItem;
+        const todoItem = this.props.todoItem;
 
         return (
             <li className="list-group-item">
