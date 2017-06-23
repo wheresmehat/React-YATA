@@ -1,6 +1,6 @@
 # React-YATA
 
-Yet another todo app using React only
+Yet another todo app using solely React.
 
 Search functionality! 
 
